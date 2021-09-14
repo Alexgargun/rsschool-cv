@@ -3,20 +3,25 @@
 
 ---
 
-##Contacts
-###Phone: +375445773811
-###Email: [aleksandr.gargun@gmail.com](aleksandr.gargun@gmail.com)
-###Telegram: [@MartinLavinsky](@MartinLavinsky)
-###Github: [Alexgargun](github.com/Alexgargun)
+## Contacts
+
+### Phone: +375445773811
+
+### Email: [aleksandr.gargun@gmail.com](aleksandr.gargun@gmail.com)
+
+### Telegram: [@MartinLavinsky](@MartinLavinsky)
+
+### Github: [Alexgargun](github.com/Alexgargun)
 
 ---
 
-##About
+## About
+
 For some time I independently studied HTML CSS, JS. Graduated from the courses of the HTP educational center at the rate Front-end. Further this summer I continued to study JS and frameworks according to Vladilen Minin's online course. Studied English on my own. Practiced some online platforms for communicating with native speakers. Understand good written English and listening. Prior to that, I worked as a director at a private enterprise in the field of lumber sales for 7 years, but decided to change the scope activities I have good interpersonal skils and i wanna learn and devlelop new Skills
 
 ---
 
-##Skils
+## Skils
 
 - HTML5
 - CSS3
@@ -26,14 +31,14 @@ For some time I independently studied HTML CSS, JS. Graduated from the courses o
 
 ---
 
-##Education
+## Education
 
 - 2007-2013 BNTU, FTMG
 - 2020-2021 HTP, FrontEnd
 
 ---
 
-##Languages
+## Languages
 
 - English(B1)
 - Belarusian(Native)

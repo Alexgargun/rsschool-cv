@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 50px;
+  width: 100%;
+  max-width: 950px;
+  min-height: 100vh;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
+}
+
+.left-side {
+  padding: 40px;
+  background-color: #003147;
+}
+
+.right-side {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ccc;
+}
+
+.profile h2 {
+  text-align: center;
+  color: #ccc;
+  padding-top: 40px;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.profile h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-info {
+  color: #ccc;
+  padding-top: 30px;
+}
+
+.contact-info h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contact-info ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

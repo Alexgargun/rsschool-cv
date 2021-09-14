@@ -35,6 +35,6 @@ For some time I independently studied HTML CSS, JS. Graduated from the courses o
 
 ##Languages
 
-- English(B2)
+- English(B1)
 - Belarusian(Native)
 - Russian

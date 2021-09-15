@@ -7,6 +7,13 @@
   font-family: "Roboto", sans-serif;
 }
 
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 body {
   background-color: lightblue;
   display: flex;
@@ -18,7 +25,7 @@ body {
 .container {
   margin: 50px;
   width: 100%;
-  max-width: 950px;
+  max-width: 1150px;
   min-height: 100vh;
   background-color: #fff;
   display: grid;
@@ -42,20 +49,6 @@ body {
   align-items: center;
   padding-bottom: 20px;
   border-bottom: solid 1px #ccc;
-}
-
-.profile h2 {
-  text-align: center;
-  color: #ccc;
-  padding-top: 40px;
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.profile h2 span {
-  font-size: 0.8em;
-  font-weight: 300;
 }
 
 .image {
@@ -86,4 +79,90 @@ li {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin: 10px 0;
+}
+
+.contact-info ul li .icon {
+  width: 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.right-side {
+}
+
+.header {
+  padding: 40px 0 130px 0;
+  margin: -40px -40px;
+}
+
+.header h1 {
+  text-align: center;
+  color: #003147;
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+.header h1 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.about {
+  border-top: 1px solid #003147;
+}
+
+.block {
+  padding: 40px 0;
+  border-bottom: 1px solid #003147;
+}
+
+.title {
+  color: #003147;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.about p {
+  color: #003147;
+  font-size: 1.2em;
+}
+
+.skils {
+}
+
+.items {
+  color: #003147;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.footer-block {
+  height: 100px;
+  padding-bottom: -40px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link img {
+  width: 200px;
+}
+
+.footer-link {
+  font-size: 18px;
+  color: #003147;
+}
+
+.footer-link:last-child {
+  font-size: 100px;
+  color: black;
+  text-decoration: none;
 }

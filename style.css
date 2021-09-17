@@ -212,70 +212,7 @@ li {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .menu-icon {
-    display: block;
-    position: relative;
-    width: 30px;
-    height: 18px;
-    cursor: pointer;
-  }
-  .menu-icon span {
-    top: 50%;
-    transform: scale(1) translate(0px, -50%);
-  }
-  .menu-icon._active span {
-    transform: scale(0) translate(0px, -50%);
-  }
-  .menu-icon span,
-  .menu-icon::before,
-  .menu-icon::after {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    transition: all 3s ease 0s;
-    background-color: red;
-  }
-  .menu-icon::before,
-  .menu-icon::after {
-    content: "";
-  }
-  .menu-icon::before {
-    top: 0;
-  }
-  .menu-icon::after {
-    bottom: 0;
-  }
-  .menu-icon span {
-    top: 50%;
-    transform: scale(1) translate(0px, -50%);
-  }
   .menu-body {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 100px 30px 30px 30px;
+    display: none;
   }
-  .menu-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    z-index: 2;
-  }
-
-  .menu-body._active {
-    left: 0;
-  }
-  .menu-list li {
-    margin: 0 0 30px 0;
-  }
-  .menu-link {
-    font-size: 24px;
-  }
-}
+}  

@@ -35,8 +35,7 @@ body._lock {
   overflow: hidden;
 }
 
-.page {
-}
+
 
 .container {
   margin: 70px 0px 50px 0px;
@@ -107,8 +106,7 @@ li {
   font-size: 20px;
 }
 
-.right-side {
-}
+
 
 .author {
   padding: 40px 0 100px 0;
@@ -118,15 +116,11 @@ li {
   text-transform: uppercase;
 }
 
-.menu {
-}
+
 .menu-icon {
   display: none;
 }
-.menu-body {
-}
-.menu-list {
-}
+
 .menu-link {
   color: #fff;
   font-size: 18px;
@@ -187,8 +181,7 @@ li {
   font-size: 1.2em;
 }
 
-.skills {
-}
+
 
 .items {
   color: #003147;

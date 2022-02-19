@@ -1,35 +1,46 @@
-const iconMenu = document.querySelector('.menu-icon')
+// Menu Burger
+
+const iconMenu = document.querySelector(".menu-icon");
+const menuBody = document.querySelector(".menu");
 
 if (iconMenu) {
-    const menuBody = document.querySelector('.menu-body')
-    iconMenu.addEventListener('click', function(e) {
-        document.body.classList.toggle('._lock')
-        iconMenu.classList.toggle('._active')
-        menuBody.classList.toggle('._active')
-    })
+  console.log(menuBody);
+  iconMenu.addEventListener("click", function (e) {
+    console.log(e.currentTarget);
+    document.body.classList.toggle("_lock");
+    iconMenu.classList.toggle("_active");
+    menuBody.classList.toggle("_active");
+  });
 }
 
-const menuLinks = document.querySelectorAll('.menu-link[data-goto]')
+const menuLinks = document.querySelectorAll(".menu-link");
 
 if (menuLinks.length > 0) {
-    menuLinks.forEach(menuLink => {
-        menuLink.addEventListener('click', onMenuLinkClick)
-    })
+  menuLinks.forEach((menuLink) => {
+    menuLink.addEventListener("click", onMenuLinkClick);
+  });
 
-    function onMenuLinkClick(e) {
-        const menuLink = e.target
+  function onMenuLinkClick(e) {
+    const menuLink = e.target;
+    console.log(e.target.dataset.num);
+    if (menuLink.dataset.num && document.querySelector(menuLink.dataset.num)) {
+      const gotoBlock = document.querySelector(menuLink.dataset.num);
+      const gotoBlockValue =
+        gotoBlock.getBoundingClientRect().top +
+        scrollY -
+        document.querySelector("header").offsetHeight;
+      if (iconMenu.classList.contains("_active")) {
+        document.body.classList.remove("_lock");
+        iconMenu.classList.remove("_active");
+        menuBody.classList.remove("_active");
+      }
 
-        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-            const gotoBlock = document.querySelector(menuLink.dataset.goto)
-            const gotoBlockValue = gotoBlock.getBoundingClientRect().top
+      window.scrollTo({
+        top: gotoBlockValue,
+        behavior: "smooth",
+      });
 
-            window.scrollTo({
-                top: gotoBlockValue,
-                behavior: 'smooth'
-            })
-
-            e.preventDefault()
-        }
+      e.preventDefault();
     }
+  }
 }
-

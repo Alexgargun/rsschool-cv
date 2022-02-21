@@ -55,7 +55,7 @@ body._lock {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1050px;
+  
 }
 
 .menu-logo {
@@ -73,7 +73,7 @@ body._lock {
 .container {
   margin: 70px 0px 50px 0px;
   width: 100%;
-  max-width: 1150px;
+  
   min-height: 100vh;
   background-color: #fff;
   display: grid;

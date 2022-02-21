@@ -16,6 +16,10 @@ a {
   color: #ccc;
 }
 
+a:hover {
+  color: #119ada;
+}
+
 ul,
 li {
   padding: 0;
@@ -175,7 +179,7 @@ li {
 .title {
   color: #003147;
   font-size: 1.5em;
-  padding-bottom: 20px;
+  padding: 20px 0px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
